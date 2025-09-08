@@ -22,12 +22,15 @@ This project is **Day 1 of the CloudOps learning path**.
 
 ## 📦 Project Structure
 
+```bash
 cloudops-todo/
 │── app/
 │ └── main.py
 │── requirements.txt
 │── Dockerfile
 │── README.md
+
+```
 
 ---
 
