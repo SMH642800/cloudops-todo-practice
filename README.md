@@ -25,7 +25,12 @@ This project is **Day 1 of the CloudOps learning path**.
 ```bash
 cloudops-todo/
 │── app/
-│ └── main.py
+│   ├── __init__.py
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   └── crud.py
 │── requirements.txt
 │── Dockerfile
 │── README.md
@@ -71,6 +76,5 @@ docker run -p 8000:8000 fastapi-todo
 
 ## 📌 Notes
 
-- In-memory storage: all data will reset when server restarts
 - Future improvement: connect to a persistent database (SQLite, PostgreSQL, etc.)
 - Part of a 4-week CloudOps learning plan
